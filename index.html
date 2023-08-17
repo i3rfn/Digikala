@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -89,5 +90,102 @@
       </div>
     </div>
     <!-- end menu -->
+    <!-- strat story -->
+    <div class="story">
+      <div>
+        <div>
+          <img src="./media/Story/1.jpeg" alt="" />
+          <p>صندل جذاب</p>
+        </div>
+        <div>
+          <img src="./media/Story/3.jpeg" alt="" />
+          <p>برنده شو</p>
+        </div>
+        <div>
+          <img src="./media/Story/6.jpeg" alt="" />
+          <p>تخفیف ویژه</p>
+        </div>
+        <div>
+          <img src="./media/Story/7.jpeg" alt="" />
+          <p>بهترین قیمت</p>
+        </div>
+        <div>
+          <img src="./media/Story/5.jpeg" alt="" />
+          <p>عطرهای اصل</p>
+        </div>
+        <div>
+          <img src="./media/Story/2.jpeg" alt="" />
+          <p>ماشین‌باز</p>
+        </div>
+        <div>
+          <img src="./media/Story/7.jpeg" alt="" />
+          <p>ضد تعریق</p>
+        </div>
+        <div>
+          <img src="./media/Story/8.jpeg" alt="" />
+          <p>یادگیری زبان</p>
+        </div>
+      </div>
+    </div>
+    <!-- end story -->
+    <!-- start slider -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./media/Slider/1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/Slider/2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/Slider/3.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/Slider/4.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/Slider/5.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/Slider/6.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/Slider/7.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/Slider/8.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./media/Slider/1.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        
+      });
+    </script>
+
+    <!-- end slider -->
   </body>
 </html>
