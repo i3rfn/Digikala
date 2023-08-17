@@ -1,0 +1,338 @@
+/* start preheader */
+div.preheader {
+  width: 100%;
+  height: 60px;
+}
+div.preheader > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+/* end preheader */
+/* start logo/search */
+div.searchbox {
+  width: 100%;
+  height: 60px;
+  padding: 0px 16px;
+  display: flex;
+}
+div.searchbox > div:nth-of-type(1) {
+  width: 70%;
+  height: inherit;
+  display: flex;
+  justify-content: start;
+}
+div.searchbox > div > div.logo {
+  width: fit-content;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+div.searchbox > div > div.searchbar {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+div.searchbox > div > div.searchbar > div {
+  width: 600px;
+  height: 44px;
+  border: unset;
+  border-radius: 8px;
+  background-color: var(--search);
+  font-family: Yregular;
+  margin-right: 15px;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  justify-content: start;
+}
+div.searchbox > div > div.searchbar > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-right: 8px;
+}
+div.searchbox > div > div.searchbar > div > input {
+  width: inherit;
+  height: inherit;
+  border: unset;
+  border-radius: 8px;
+  background-color: var(--search);
+  font-family: Yregular;
+  outline: unset;
+  color: #7e7fad;
+}
+
+div.searchbox > div > div.searchbar > div > input > img {
+  width: 24px;
+  height: 24px;
+}
+
+div.searchbox > div:nth-of-type(2) {
+  width: 30%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  column-gap: 16px;
+}
+div.searchbox > div:nth-of-type(2) > div.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+div.searchbox > div:nth-of-type(2) > div.login > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  border-radius: 8px;
+  padding: 6px 18px;
+  background-color: white;
+  border: 1px solid #e0e0e6;
+  column-gap: 8px;
+}
+div.searchbox > div:nth-of-type(2) > div.login > div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+div.searchbox > div:nth-of-type(2) > div.login > div > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #080a38;
+  font-family: Yregular;
+  font-size: 12px;
+}
+div.searchbox > div:nth-of-type(2) > div.login > div > a > div {
+  display: inline-block;
+  color: #080a38;
+  width: 2px;
+  height: 12px;
+  background-color: black;
+  margin: 0 6px;
+}
+div.searchbox > div:nth-of-type(2) > div.cart {
+  height: 24px;
+  padding: 0 18px;
+  border-right: 1px solid #e0e0e6;
+}
+/* end logo/search */
+/* start menu */
+div.menu {
+  width: 100%;
+  height: 40px;
+  padding: 0 16px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+div.menu > div {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+}
+
+div.menu > div > div:nth-of-type(1) {
+  width: 80%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+div.menu > div > div:nth-of-type(1) > div.dstebndi {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+div.menu > div > div:nth-of-type(1) > div.dstebndi > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  column-gap: 4px;
+  color: #3f4064;
+}
+
+div.menu > div > div:nth-of-type(1) > div.shgft {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+div.menu > div > div:nth-of-type(1) > div.shgft > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 4px;
+  color: #5a5c7a;
+  border-right: 1px solid #7e7fad;
+  padding: 0 8px;
+}
+div.menu > div > div:nth-of-type(1) > div.super {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+div.menu > div > div:nth-of-type(1) > div.super > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 4px;
+  color: #5a5c7a;
+}
+div.menu > div > div:nth-of-type(1) > div.hdye {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+div.menu > div > div:nth-of-type(1) > div.hdye > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 4px;
+  color: #5a5c7a;
+}
+div.menu > div > div:nth-of-type(1) > div.forosh {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+div.menu > div > div:nth-of-type(1) > div.forosh > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 4px;
+  color: #5a5c7a;
+}
+div.menu > div > div:nth-of-type(1) > div.tkhfif {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+div.menu > div > div:nth-of-type(1) > div.tkhfif > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 4px;
+  color: #5a5c7a;
+  border-left: 1px solid #7e7fad;
+  padding: 0 8px;
+}
+div.menu > div > div:nth-of-type(1) > div.soal {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+div.menu > div > div:nth-of-type(1) > div.soal > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 4px;
+  color: #5a5c7a;
+}
+div.menu > div > div:nth-of-type(1) > div.drgigi {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+div.menu > div > div:nth-of-type(1) > div.drgigi > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 4px;
+  color: #5a5c7a;
+}
+/*  start hover dstebndi */
+
+div.menu > div > div:nth-of-type(1) > div {
+  position: relative;
+}
+div.menu > div > div:nth-of-type(1) > div::before {
+  content: " ";
+  width: 0;
+  height: 2px;
+  border-radius: 2px 2px 0 0;
+  border-bottom: 2px solid red;
+  z-index: 900;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform-origin: right;
+}
+div.menu > div > div:nth-of-type(1) > div:hover:before {
+  width: 100%;
+  transition: all 200ms ease-in-out;
+  border-bottom: 2px solid red;
+}
+/* end hover dstebndi */
+div.menu > div > div:nth-of-type(2) {
+  width: 20%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+div.menu > div > div:nth-of-type(2) > div.loc {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+div.menu > div > div:nth-of-type(2) > div.loc > a {
+  text-decoration: none;
+  font-family: Yregular;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  column-gap: 4px;
+  color: #5a5c7a;
+  column-gap: 8px;
+}

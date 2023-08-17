@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+@font-face {
+  font-family: Yblack;
+  src: url(../media/Fonts/iranyekan-black.woff);
+}
+@font-face {
+  font-family: Yextrabold;
+  src: url(../media/Fonts/iranyekan-extrabold.woff);
+}
+@font-face {
+  font-family: Ylight;
+  src: url(../media/Fonts/iranyekan-light.woff);
+}
+@font-face {
+  font-family: Ymedium;
+  src: url(../media/Fonts/iranyekan-medium.woff);
+}
+@font-face {
+  font-family: Ythin;
+  src: url(../media/Fonts/iranyekan-thin.woff);
+}
+@font-face {
+  font-family: Yregular;
+  src: url(../media/Fonts/iranyekan.woff);
+}
+@font-face {
+  font-family: Ybold;
+  src: url(../media/Fonts/ranyekan-bold.woff);
+}
+@font-face {
+  font-family: Yextrablack;
+  src: url(../media/Fonts/ranyekan-extrablack.woff);
+}
+@font-face {
+  font-family: NUMmedium;
+  src: url(../media/Fonts/IRANSansXFaNum-Medium.woff);
+}
+@font-face {
+  font-family: NUMregular;
+  src: url(../media/Fonts/IRANSansXFaNum-Regular.woff);
+}
+
+:root {
+  --brand: #ef394e;
+  --search: #f1f2f4;
+  --txt: #7e7fad
+}
