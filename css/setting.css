@@ -4,6 +4,16 @@
   box-sizing: border-box;
   direction: rtl;
 }
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #afafaf;
+}
+
 @font-face {
   font-family: Yblack;
   src: url(../media/Fonts/iranyekan-black.woff);
@@ -48,5 +58,5 @@
 :root {
   --brand: #ef394e;
   --search: #f1f2f4;
-  --txt: #7e7fad
+  --txt: #7e7fad;
 }

@@ -1,0 +1,29 @@
+div.adone {
+  width: 1315px;
+  height: 240px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div.adone > div {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div.adone > div > a {
+  width: 315px;
+  height: 235px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+div.adone > div > a > img {
+  width: 315px;
+  height: 235px;
+  border-radius: 16px;
+}

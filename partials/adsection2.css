@@ -1,0 +1,29 @@
+div.adtwo {
+  width: 1315px;
+  height: 260px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div.adtwo > div {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div.adtwo > div > a {
+  width: 644px;
+  height: 258px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+div.adtwo > div > a > img {
+  width: 644px;
+  height: 258px;
+  border-radius: 16px;
+}

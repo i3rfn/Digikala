@@ -1,0 +1,109 @@
+div.supershgft {
+  background-image: url(../media/SuperShgft/Untitled-1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1304px;
+  height: 110px;
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Yregular;
+  margin-top: 10px;
+}
+div.supershgft > div.right {
+  width: 466px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  justify-content: center;
+}
+div.supershgft > div.right > img:nth-of-type(1) {
+  width: 66px;
+  height: 62px;
+}
+div.supershgft > div.right > img:nth-of-type(2) {
+  width: 250px;
+  height: 28px;
+}
+div.supershgft > div.right > a {
+  background-color: #39ae00;
+  height: 28px;
+  width: 110px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 16px;
+  font-size: 14px;
+}
+div.supershgft > div.left {
+  width: 637px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.supershgft > div.left > div {
+  width: 492px;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+div.supershgft > div.left > div > div {
+  width: 74px !important;
+  height: 74px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px 8px 8px 8px;
+}
+div.supershgft > div.left > div > div > img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+div.supershgft > div.left > div > div > span {
+  width: 34px;
+  height: 20px;
+  background-color: #ef394e;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  border-radius: 16px;
+  font-size: 12px;
+  padding: 4px 0 4px 0;
+  line-height: 15px;
+  font-family: NUMregular;
+  text-align: center;
+}
+div.supershgft > div.left > a {
+  width: 145px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #39ae00;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 5px;
+  margin-right: 10px;
+}
+div.supershgft > div.left > a > img {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+}

@@ -1,0 +1,59 @@
+div.dastebandi {
+  width: 1304px;
+  height: 436px;
+  margin: 0 auto;
+  padding: 16px 16px 40px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div.dastebandi > h3 {
+  width: 250px;
+  height: 44px;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: Yregular;
+  line-height: 44px;
+  text-align: center;
+  word-spacing: 0;
+  color: black;
+  margin-bottom: 20px;
+}
+div.dastebandi > div {
+  width: 1280px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.dastebandi > div > a {
+  width: 182px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+div.dastebandi > div > a > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+div.dastebandi > div > a > img:nth-last-of-type(1) {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+div.dastebandi > div > a > p {
+  width: 150px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Yregular;
+  color: #080a38;
+  text-align: center;
+}
