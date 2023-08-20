@@ -1,0 +1,102 @@
+div.pishnhd {
+  width: 1304px;
+  height: 395px;
+  margin: 0 auto;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.pishnhd > div:nth-of-type(1) {
+  width: 100%;
+  height: 76px;
+  padding: 16px 0 16px 0;
+  border-radius: 16px;
+}
+div.pishnhd > div:nth-of-type(1) > h2 {
+  width: 100%;
+  height: 44px;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: Yregular;
+  text-align: center;
+  word-spacing: 0;
+  line-height: 44px;
+  color: #080a38;
+}
+div.pishnhd > div.rdif {
+  width: inherit;
+  height: 311px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid #e0e0e6;
+  border-radius: 16px;
+}
+div.pishnhd > div.rdif > div {
+  width: 186px;
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 12px 12px 12px;
+  border-right: 1px solid #e0e0e6;
+  border-bottom: 1px solid #e0e0e6;
+}
+div.pishnhd > div.rdif > div:nth-of-type(1) {
+  border-right: unset;
+}
+div.pishnhd > div.rdif > div:nth-of-type(8) {
+  border: unset;
+}
+div.pishnhd > div.rdif > div:nth-of-type(9) {
+  border-bottom: unset;
+}
+div.pishnhd > div.rdif > div:nth-of-type(10) {
+  border-bottom: unset;
+}
+div.pishnhd > div.rdif > div:nth-of-type(11) {
+  border-bottom: unset;
+}
+div.pishnhd > div.rdif > div:nth-of-type(12) {
+  border-bottom: unset;
+}
+div.pishnhd > div.rdif > div:nth-of-type(13) {
+  border-bottom: unset;
+}
+div.pishnhd > div.rdif > div:nth-of-type(14) {
+  border-bottom: unset;
+}
+div.pishnhd > div.rdif > div > a {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 12px 12px 12px;
+  text-decoration: none;
+  background-color: #f1f2f4;
+  border-radius: 50%;
+}
+div.pishnhd > div.rdif > div > a > img {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+}
+div.pishnhd > div.rdif > div > p {
+  width: 160px;
+  height: 30px;
+  line-height: 30px;
+  font-family: Yregular;
+  font-size: 14px;
+  color: #080a38;
+  text-align: center;
+  margin-top: 10px;
+}
