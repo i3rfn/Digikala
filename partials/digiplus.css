@@ -1,0 +1,200 @@
+div.digiplus {
+  width: 1304px;
+  height: 388px;
+  background-color: #941b80;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.digiplus > div.ozvit {
+  width: 384px;
+  height: 356px;
+  margin: 12px 0 0 0;
+  background-image: url(../media/digiplus/plus-widget.png);
+  background-position: 0px 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+}
+div.digiplus > div.ozvit > div {
+  width: 384px;
+  height: 114px;
+  display: flex;
+  padding: 12px 0 0 0;
+  margin-right: 10px;
+  flex-direction: column;
+  align-items: start;
+}
+div.digiplus > div.ozvit > div > a:nth-of-type(1) > img {
+  width: 138px;
+  height: 32px;
+  object-fit: contain;
+}
+div.digiplus > div.ozvit > div > p {
+  width: 208px;
+  height: 30px;
+  font-family: Yregular;
+  line-height: 30px;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 4px 0 0 0;
+}
+div.digiplus > div.ozvit > div > a:nth-of-type(2) {
+  width: 106px;
+  height: 38px;
+  border: 1px solid #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: Yregular;
+  text-decoration: none;
+  word-spacing: 0;
+  margin: 12px 0 0 0;
+  padding: 4px 16px 4px 16px;
+  border-radius: 8px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.digiplus > div.hdye {
+  width: 440px;
+  height: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0 8px 8px 0;
+}
+div.digiplus > div.hdye > div:nth-of-type(1) {
+  width: 404px;
+  height: 66px;
+  background-color: #ffffff;
+  padding: 8px 0 8px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+div.digiplus > div.hdye > div:nth-of-type(1) > div {
+  width: 126px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.digiplus > div.hdye > div:nth-of-type(1) > div > img {
+  width: 24px;
+  height: 24px;
+}
+div.digiplus > div.hdye > div:nth-of-type(1) > div > h4 {
+  width: 80px;
+  height: 35px;
+  font-family: Yregular;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  word-spacing: 0;
+  text-align: center;
+}
+
+div.digiplus > div.hdye > div:nth-of-type(1) > a {
+  width: 86px;
+  height: 26px;
+  font-family: Yregular;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #b12ba4;
+}
+div.digiplus > div.hdye > div:nth-of-type(2) {
+  width: 404px;
+  height: 290px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+div.digiplus > div.hdye > div:nth-of-type(2) > a > img {
+  width: 116px;
+  height: 116px;
+  object-fit: contain;
+}
+
+div.digiplus > div.ersal {
+  width: 440px;
+  height: 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px 0 0 8px;
+}
+div.digiplus > div.ersal > div:nth-of-type(1) {
+  width: 404px;
+  height: 66px;
+  background-color: #ffffff;
+  padding: 8px 0 8px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+div.digiplus > div.ersal > div:nth-of-type(1) > div {
+  width: 160px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.digiplus > div.ersal > div:nth-of-type(1) > div > img {
+  width: 24px;
+  height: 24px;
+}
+div.digiplus > div.ersal > div:nth-of-type(1) > div > h4 {
+  width: 130px;
+  height: 35px;
+  font-family: Yregular;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  word-spacing: 0;
+  text-align: center;
+}
+
+div.digiplus > div.ersal > div:nth-of-type(1) > a {
+  width: 86px;
+  height: 26px;
+  font-family: Yregular;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  text-decoration: none;
+  word-spacing: 0;
+  color: #b12ba4;
+}
+div.digiplus > div.ersal > div:nth-of-type(2) {
+  width: 404px;
+  height: 290px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+div.digiplus > div.ersal > div:nth-of-type(2) > a > img {
+  width: 116px;
+  height: 116px;
+  object-fit: contain;
+}
