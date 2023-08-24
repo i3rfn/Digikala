@@ -1,0 +1,10 @@
+div.adfour {
+  width: 1304px;
+  height: 163px;
+  margin: 15px auto;
+  border-radius: 16px;
+  background-image: url(../media/ad4/1.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
