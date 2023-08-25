@@ -4,16 +4,13 @@ footer {
   margin: 48px 0 0;
   padding: 32px 0 0;
   border-top: 1px solid #e0e0e6;
-  background-color: lightblue;
   overflow: hidden;
 }
 footer > div.footer {
   width: 1350px;
   max-width: 1550px;
-  height: 966px;
   padding: 20px 0px 20 0px;
   margin: 0 auto;
-  background-color: lightgray;
 }
 footer > div.footer > div:nth-of-type(1) {
   width: 100%;
@@ -121,7 +118,6 @@ footer > div.footer > div:nth-of-type(4) {
   align-items: start;
   justify-content: space-between;
   margin-top: 40px;
-  background-color: red;
 }
 footer > div.footer > div:nth-of-type(4) > div:nth-of-type(1) {
   width: 25%;
@@ -428,6 +424,117 @@ footer > div.footer > div:nth-of-type(5) > div:nth-of-type(3) > img {
   align-items: start;
   justify-content: center;
 }
+footer > div.footer > div:nth-of-type(6) {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin-top: 30px;
+  border-top: 1px solid #f1f2f4;
+  padding-top: 10px;
+}
+#more {
+  display: none;
+}
+button {
+  border: unset;
+  outline: unset;
+  font-family: Yregular;
+  background-color: unset;
+  color: #19bfd3;
+  font-size: 12px;
+  font-weight: 700;
+  word-spacing: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 10px;
+}
+button > span {
+  border: unset;
+  outline: unset;
+  font-family: Yregular;
+  background-color: unset;
+  color: #19bfd3;
+  font-size: 12px;
+  font-weight: 700;
+  word-spacing: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(1) {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-top: 20px;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(1) > h1 {
+  font-family: Yregular;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 44px;
+  word-spacing: 0;
+  color: #5a5c7a;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(1) h2 {
+  font-family: Yregular;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  word-spacing: 0;
+  color: #767790;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(1) a {
+  font-family: Yregular;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #19bfd3;
+  text-decoration: none;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(1) p {
+  font-family: Yregular;
+  font-size: 12px;
+  line-height: 26px;
+  word-spacing: 0;
+  color: #767790;
+  margin: 2px;
+  text-align: right;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(1) p span {
+  opacity: 0.6;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(2) {
+  width: 30%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(2) > a {
+  width: 109px;
+  height: 109px;
+  border: 1px solid #e0e0e6;
+  margin: 8px 0 0 0;
+  padding: 16px 16px 16px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  row-gap: 10px;
+}
+footer > div.footer > div:nth-of-type(6) > div:nth-of-type(2) > a > img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
 footer > div.footer > div:nth-of-type(7) {
   width: 100%;
   height: 89px;
@@ -444,4 +551,37 @@ footer > div.footer > div:nth-of-type(7) > P {
   line-height: 24px;
   word-spacing: 0;
   color: #767790;
+}
+footer > div.icons {
+  width: 100%;
+  height: 160px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+footer > div.icons > a {
+  width: 191px;
+  height: 80px;
+  border-bottom: 1px solid #e0e0e6;
+  border-right: 1px solid #e0e0e6;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+footer > div.icons > a:nth-of-type(1) {
+  border-right: unset;
+}
+footer > div.icons > a:nth-of-type(9) {
+  border-right: unset;
+}
+footer > div.icons > a > img {
+  width: 90px;
+  height: 20px;
+  object-fit: contain;
 }
