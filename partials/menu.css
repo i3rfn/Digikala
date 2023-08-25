@@ -139,6 +139,7 @@ div.menu {
   padding: 0 16px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
+
 div.menu > div {
   width: 100%;
   height: inherit;

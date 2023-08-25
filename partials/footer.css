@@ -563,25 +563,45 @@ footer > div.icons {
   justify-content: center;
 }
 footer > div.icons > a {
-  width: 191px;
+  width: 169.9px;
   height: 80px;
   border-bottom: 1px solid #e0e0e6;
   border-right: 1px solid #e0e0e6;
   padding: 20px 0 20px 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 footer > div.icons > a:nth-of-type(1) {
   border-right: unset;
 }
-footer > div.icons > a:nth-of-type(9) {
+footer > div.icons > a:nth-of-type(10) {
   border-right: unset;
 }
 footer > div.icons > a > img {
   width: 90px;
   height: 20px;
   object-fit: contain;
+}
+input.PB {
+  width: 48px;
+  height: 48px;
+  padding: 12px 12px 12px 12px;
+  color: #ffffff;
+  background-color: #ef4056;
+  position: fixed;
+  top: 668px;
+  bottom: 10px;
+  right: 1430px;
+  left: 50px;
+  display: flex;
+  z-index: 999;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: unset;
+  border: unset;
+  background-image: url(../media/poshtibni/poshtibni.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
