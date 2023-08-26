@@ -88,6 +88,7 @@ div.urview2 > div.dftr > div > a:nth-last-of-type(1) {
   position: absolute;
   bottom: 15px;
   right: 135px;
+  display: flex;
 }
 
 div.urview2 > div.laptop {
@@ -171,6 +172,7 @@ div.urview2 > div.laptop > div > a:nth-last-of-type(1) {
   position: absolute;
   bottom: 15px;
   right: 135px;
+  display: flex;
 }
 
 div.urview2 > div.khodro {
@@ -254,6 +256,7 @@ div.urview2 > div.khodro > div > a:nth-last-of-type(1) {
   position: absolute;
   bottom: 15px;
   right: 135px;
+  display: flex;
 }
 
 div.urview2 > div.fonon {
@@ -337,4 +340,5 @@ div.urview2 > div.fonon > div > a:nth-last-of-type(1) {
   position: absolute;
   bottom: 15px;
   right: 135px;
+  display: flex;
 }

@@ -39,14 +39,3 @@ div.catgory > div > div > p {
   color: #3f4064;
   text-align: center;
 }
-
-div.catgory > div > div:nth-of-type(8) > img {
-  width: 52px;
-  height: 52px;
-  background-color: #f1f2f4;
-  border-radius: 50%;
-}
-
-div.catgory > div > div:nth-of-type(5) > img {
-  border-radius: 50%;
-}

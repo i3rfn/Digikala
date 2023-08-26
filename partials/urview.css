@@ -88,6 +88,7 @@ div.urview > div.goshi > div > a:nth-last-of-type(1) {
   position: absolute;
   bottom: 15px;
   right: 135px;
+  display: flex;
 }
 
 div.urview > div.cover {
@@ -171,6 +172,7 @@ div.urview > div.cover > div > a:nth-last-of-type(1) {
   position: absolute;
   bottom: 15px;
   right: 135px;
+  display: flex;
 }
 
 div.urview > div.hnsfree {
@@ -254,6 +256,7 @@ div.urview > div.hnsfree > div > a:nth-last-of-type(1) {
   position: absolute;
   bottom: 15px;
   right: 135px;
+  display: flex;
 }
 
 div.urview > div.saAt {
@@ -337,4 +340,5 @@ div.urview > div.saAt > div > a:nth-last-of-type(1) {
   position: absolute;
   bottom: 15px;
   right: 135px;
+  display: flex;
 }

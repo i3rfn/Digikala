@@ -1,6 +1,6 @@
 .swiper {
   width: 100%;
-  height: 100%;
+  height: 400px !important;
   position: relative;
 }
 
@@ -27,9 +27,7 @@
 }
 .swiper-button-prev {
   background-color: white;
-  color: black;
   scale: 0.35;
-  font-weight: 900;
   width: 110px;
   height: 110px;
   border-radius: 50%;
@@ -42,14 +40,18 @@
   margin-right: 20px;
   opacity: 0;
   transition: all 200ms ease-in-out;
+  background-image: url(../media/Shgft/flshperv.svg);
+  background-size: 90px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  color: #3f4064 !important;
 }
 
 .swiper-button-next {
   background-color: white;
-  color: black;
+  color: #3f4064;
   scale: 0.35;
-  border: 1px solid #4a4a4a;
-  font-weight: 900;
+  border: 1px solid #4a4a4a !important;
   width: 110px;
   height: 110px;
   border-radius: 50%;
@@ -58,9 +60,13 @@
   justify-content: center;
   position: absolute;
   top: 75%;
-  margin-left: 1715px;
+  margin-left: 1335px;
   opacity: 0;
   transition: all 200ms ease-in-out;
+  background-image: url(../media/Shgft/flshnext.svg);
+  background-size: 90px !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
 }
 .swiper-pagination {
   width: 100%;
@@ -71,8 +77,8 @@
   align-items: center;
 }
 .swiper-pagination-bullet {
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
   opacity: 0.7;
   margin: 0 6px;
   background-color: #3f3f3f;
